@@ -43,12 +43,13 @@ For each sub-problem, apply CT skills:
 
 ### **Step 4: Draw a flowchart or write a pseudocode for the identified subproblem**
 
+For Sub-problem 2:
 ```
 START
+
 #For the vending machine staff:
 INPUT every item_name and item_price in the vending machine list
-INPUT the initial item_stock
-
+INPUT initial item_stock
 
 #For the customer:
 INPUT every item_to_dispense
@@ -56,27 +57,32 @@ INPUT every item_amount
 INPUT buy_confirm
 INPUT payment
 
-
 #Machine algorithm
-IF buy_confirm is TRUE and payment >= item_price of all item_to_dispense THEN:
-    FOR every item_to_dispense, DO:
-        IF item_stock > or = to item_amount THEN:
-            DISPLAY “item_bought of item_to_dispense bought!”
-            DO item_stock = item_stock - item_amount
-            DISPENSE item_amount of item_to_dispense
-            DISPENSE payment - item_price of all item to dispense
-        ELSE:
-            DISPLAY “Stock too low and needs restocking.”
+SET total_cost = 0
+SET stock_available = TRUE
 
+FOR every unique item_to_dispense DO:
+    IF item_stock < all of this item_amount THEN:
+        SET stock_available = FALSE
+    SET total_cost = total_cost + (item_price * item_amount)
 
-        FOR every item_name, DO:
-            IF item_stock = 0 THEN:
-                DISPLAY “Alert! Item is out of stok. Please restock.”
+IF buy_confirm is TRUE and stock_available is TRUE and payment >= total_cost THEN:
+    FOR every item_to_dispense DO:
+        DISPLAY item_amount + " of " + item_to_dispense + " bought!"
+        DO item_stock = item_stock - item_amount
+        DISPENSE item_amount of item_to_dispense
+
+    DISPENSE payment - total_cost
 
 ELSE:
-    DISPLAY “Transaction failed.”
+    DISPLAY "Transaction failed."
+    IF stock_available is FALSE THEN:
+        DISPLAY "Stock too low and needs restocking."
+    DISPENSE payment
+
+FOR every item_name DO:
+    IF item_stock = 0 THEN:
+        DISPLAY "Alert! item is out of stock. Please restock."
 
 END
 ```
-
-
