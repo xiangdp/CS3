@@ -29,3 +29,15 @@ Please list possible sub-problems:
 2. The available stock is not shown real-time, which prevents the buyers and operators from knowing if the machine has been restocked.
 3. The lack of a confirmation process before a buyer receives their item leads to accidental purchases.
 4. The process takes too long to process payments and dispense items, therefore forming long lines.
+
+### **Step 3: Define Computational Thinking Approaches**
+
+For each sub-problem, apply CT skills:
+
+| Sub-Problem | CT Skill | Example Solution |
+|:--------|:------:|:----------|
+| Long Processing Time | Decomposition | Decompose the steps of processing, like payments, exchange, and item dispensing, into individual steps for easier and faster management.|
+| Lack of Alert When Stock Is Empty | Pattern Recognition | Use trends like times in the day the machine is most used to know when is the best time to stock up the machine while using notifiers like small lights to alert when the stock is low. |
+| Button Accidents | Abstraction | Ignore physical design or size of the buttons, just focus on a confirmation for the order selected to avoid any mistakes by students. |
+| Incorrect Calculations | Algorithm Designs | Separate each step of calculating change, such as counting the received money, subtracting the total price from it, and returning the change. |
+
