@@ -1,8 +1,8 @@
 # **Annex B**
 ## **Computational Thinking Exercise: "Smart Vending Machine"**
-Section: __________________________________ Score:____________
+Section: 9 - Samat ------------------------- Score:____________
 
-C# / Name:_________________________________ Date: _____________
+C# / Name:  #13 - Xian Gabriel D. Panganiban  Date: 10/08/2026
 
 ### **Scenario**
 
