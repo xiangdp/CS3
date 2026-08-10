@@ -41,3 +41,42 @@ For each sub-problem, apply CT skills:
 | Button Accidents | Abstraction | Ignore physical design or size of the buttons, just focus on a confirmation for the order selected to avoid any mistakes by students. |
 | Incorrect Calculations | Algorithm Designs | Separate each step of calculating change, such as counting the received money, subtracting the total price from it, and returning the change. |
 
+### **Step 4: Draw a flowchart or write a pseudocode for the identified subproblem**
+
+```
+START
+#For the vending machine staff:
+INPUT every item_name and item_price in the vending machine list
+INPUT the initial item_stock
+
+
+#For the customer:
+INPUT every item_to_dispense
+INPUT every item_amount
+INPUT buy_confirm
+INPUT payment
+
+
+#Machine algorithm
+IF buy_confirm is TRUE and payment >= item_price of all item_to_dispense THEN:
+    FOR every item_to_dispense, DO:
+        IF item_stock > or = to item_amount THEN:
+            DISPLAY “item_bought of item_to_dispense bought!”
+            DO item_stock = item_stock - item_amount
+            DISPENSE item_amount of item_to_dispense
+            DISPENSE payment - item_price of all item to dispense
+        ELSE:
+            DISPLAY “Stock too low and needs restocking.”
+
+
+        FOR every item_name, DO:
+            IF item_stock = 0 THEN:
+                DISPLAY “Alert! Item is out of stok. Please restock.”
+
+ELSE:
+    DISPLAY “Transaction failed.”
+
+END
+```
+
+
