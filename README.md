@@ -16,7 +16,10 @@
 
 - Expert in the childhood game "Lechonan" where we hold on to a hammock for dear life. [^2]
 
-
+### Tasks
+#### Q1
+SG2 Act 1:
+https://github.com/xiangdp/CS3/blob/main/q1/q1_sg2_a1.md
 
 
 
