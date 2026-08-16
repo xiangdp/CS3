@@ -21,6 +21,9 @@
 SG2 Act 1:
 https://github.com/xiangdp/CS3/blob/main/q1/q1_sg2_a1.md
 
+SG Act 3:
+https://github.com/xiangdp/CS3/blob/1af61ca1077efa30fd3bf9897de359d9ac443485/q1/q1_sg2_a3.py
+
 
 
 
