@@ -27,7 +27,8 @@ https://github.com/xiangdp/CS3/blob/1af61ca1077efa30fd3bf9897de359d9ac443485/q1/
 SG5 Act 1:
 https://github.com/xiangdp/CS3/blob/aa90f892edca3a16e29fd8cf634c5169c9a70eba/q1/q1_sg5_a1_samat_panganiban.py
 
-
+SG6 Activity:
+https://github.com/xiangdp/CS3/blob/a25519de6ab8d5442d289274974d329353cc25de/q1/q1_sg6_samat_panganiban.py
 
 
 
