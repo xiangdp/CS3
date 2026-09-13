@@ -30,7 +30,9 @@ https://github.com/xiangdp/CS3/blob/aa90f892edca3a16e29fd8cf634c5169c9a70eba/q1/
 SG6 Activity:
 https://github.com/xiangdp/CS3/blob/a25519de6ab8d5442d289274974d329353cc25de/q1/q1_sg6_samat_panganiban.py
 
-
+### Extra
+toy car activity from q1:
+https://github.com/xiangdp/CS3/blob/38880d736cbff31ad9f61e172ac9c5bdecab4d21/q1/q1_car_game.py
 
 [^1]: d.m.y format
 
