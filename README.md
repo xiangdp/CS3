@@ -24,6 +24,9 @@ https://github.com/xiangdp/CS3/blob/b613db7e4415d06309c9ac6f7490abfa4ce39076/q1/
 SG2 Act 3:
 https://github.com/xiangdp/CS3/blob/1af61ca1077efa30fd3bf9897de359d9ac443485/q1/q1_sg2_a3.py
 
+SG4 FA4:
+https://drive.google.com/file/d/1R1m12TnL3hCtMGIPMSRWRxA9TzGcTdXP/view?usp=drive_link
+
 SG5 Act 1:
 https://github.com/xiangdp/CS3/blob/aa90f892edca3a16e29fd8cf634c5169c9a70eba/q1/q1_sg5_a1_samat_panganiban.py
 
