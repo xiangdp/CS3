@@ -40,6 +40,9 @@ https://github.com/xiangdp/CS3/blob/7bd39996223a0f0aca5c2a05422e650e3e172370/q1/
 toy car activity from q1:
 https://github.com/xiangdp/CS3/blob/38880d736cbff31ad9f61e172ac9c5bdecab4d21/q1/q1_car_game.py
 
+4 relations examples from q1:
+https://github.com/xiangdp/CS3/blob/d9b2ac62cbdaecd801c3aa61af029cbe838e266b/q1/q1_4relations.py
+
 [^1]: d.m.y format
 
 [^2]: im not actually an expert i got hurt so many times in this game...
