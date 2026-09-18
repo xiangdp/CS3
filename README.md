@@ -1,4 +1,4 @@
-# CS3-test
+# CS3 Portfolio
  VScode and Github pairing test!
 
 ## Xian Gabriel D. Panganiban
