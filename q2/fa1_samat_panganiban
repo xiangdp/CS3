@@ -1,0 +1,84 @@
+class Publication:
+    def __init__(self, title, author):
+        self.__title = title
+        self.__author = author
+		
+    def get_title(self):
+        return self.__title
+		
+    def set_title(self, name):
+        if isinstance(name, str):
+            self.__title = name
+        else:
+            print("Input TITLE is not a string.")
+            self.title = "[missing value]"
+		
+    def get_author(self):
+        return self.__author
+		
+    def set_author(self, name):
+        if isinstance(name, str):
+            self.__author = name
+        else:
+            print("Input AUTHOR is not a string.")
+            self.__author = "[missing value]"
+
+    def display_info(self):
+        print(f"""Publication Information:
+        Title: {self.__title}
+        Author: {self.__author}""")
+			
+class Book(Publication):
+    #nop -> Number Of Pages
+    def __init__(self, title, author, nop):
+        super().__init__(title, author)
+        self.__nop = nop
+
+    def get_nop(self):
+        return self.__nop
+    
+    def set_nop(self, name):
+        if isinstance(name, int) and name > 0:
+            self.__nop = name
+        else:
+            print("Input PAGE# is not an integer greater than 0.")
+            self.__nop = "[missing value]"
+			
+			
+    def display_info(self):
+        print(f"""Book Information:
+        Title: {self.get_title()}
+        Author: {self.get_author()}
+        Number Of Pages: {self.get_nop()}""")		
+
+
+class Magazine(Publication):
+    #issue -> Issue Number
+    def __init__(self, title, author, issue):
+        super().__init__(title, author)
+        self.__issue = issue
+		
+    def get_issue(self):
+        return self.__issue
+		
+    def set_issue(self, name):
+        if isinstance(name, int) and name > 0:
+            self.__issue = name
+        else:
+            print("Input ISSUE# is not an integer greater than 0.")
+            self.__issue = "[missing value]"
+			
+			
+    def display_info(self):
+        print(f"""Magazine Information:
+        Title: {self.get_title()}
+        Author: {self.get_author()}
+        Issue Number: {self.get_issue()}""")
+
+pub1 = Publication("A", "a made this")
+book1 = Book("B", "bsmas", 12)
+mag1 = Magazine("C", "cool boy", 82764)
+
+book1.display_info()
+book1.set_nop(-12)
+book1.display_info()
