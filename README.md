@@ -40,8 +40,11 @@ https://github.com/xiangdp/CS3/blob/7bd39996223a0f0aca5c2a05422e650e3e172370/q1/
 SG8&9 FA1:
 https://github.com/xiangdp/CS3/blob/604bb0625998d979e78caa897ea2fc0029c92b21/q2/fa1_samat_panganiban
 
-SG10 FA2
+SG10 FA2:
 https://github.com/xiangdp/CS3/blob/dcdf6577c22050ac8aa22a9217fdfc64e9ccf5c0/q2/fa2_samat_panganiban.py
+
+SG11 Act 3:
+https://github.com/xiangdp/CS3/blob/418417d80489966a4acc389397eec5dadeb757ed/q2/oct30_samat_millo_panganiban_bragais.py
 
 ### Extra
 toy car activity from q1:
