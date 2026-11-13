@@ -46,6 +46,9 @@ https://github.com/xiangdp/CS3/blob/dcdf6577c22050ac8aa22a9217fdfc64e9ccf5c0/q2/
 SG11 Act 3:
 https://github.com/xiangdp/CS3/blob/418417d80489966a4acc389397eec5dadeb757ed/q2/oct30_samat_millo_panganiban_bragais.py
 
+SG12 Act 4:
+https://github.com/xiangdp/CS3/blob/d3822ee878922d4e39455d10fef015e9242b33fe/q2/FA3_Samat_Panganiban.py
+
 ### Extra
 toy car activity from q1:
 https://github.com/xiangdp/CS3/blob/38880d736cbff31ad9f61e172ac9c5bdecab4d21/q1/q1_car_game.py
